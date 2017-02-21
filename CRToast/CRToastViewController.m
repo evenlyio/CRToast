@@ -34,7 +34,7 @@
 #pragma mark UIViewController
 
 - (BOOL)shouldAutorotate {
-    return _autorotate;
+    return NO;
 }
 
 - (BOOL)prefersStatusBarHidden {
